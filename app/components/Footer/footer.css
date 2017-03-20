@@ -1,0 +1,16 @@
+#footer {
+	background-color: #000;
+	color: #fff;
+	padding: 2%;
+}
+
+#footer h4 {
+	width: 90%;
+	margin: .25em auto;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.1em;
+	padding-bottom: 1%;
+	color: #cfcfcf;
+	text-shadow: 2px 2px rgba(0, 0, 0, .5);
+}

@@ -1,0 +1,7 @@
+#header {
+	padding: 2%;
+	flex-basis: 5%;
+	max-height: 5em;
+	background-color: #000;
+	color: #fff;
+}
