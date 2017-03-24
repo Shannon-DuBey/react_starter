@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --inline --hot"
+    "start": "webpack-dev-server --inline --hot"
   },
   "author": "",
   "license": "MIT",
@@ -29,8 +29,9 @@
     "webpack-dev-server": "^2.4.1"
   },
   "dependencies": {
+    "extract-text-webpack-plugin": "^2.1.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
-    "extract-text-webpack-plugin": "^2.1.0"
+    "react-router-dom": "^4.0.0"
   }
 }

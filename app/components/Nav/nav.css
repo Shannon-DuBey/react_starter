@@ -1,0 +1,7 @@
+#NavBar a,
+#NavBar a:visited {
+	font-size: 1.2em;
+	color: #fff;
+	padding: 0 2em;
+	text-decoration: none;
+}

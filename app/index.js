@@ -2,7 +2,14 @@ import './style.css';
 
 import React from 'react';
 import { render } from 'react-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 import { Layout } from './components';
 
-render(<Layout />, document.getElementById('app'));
+const app = document.getElementById('app');
+render(
+	<Router>
+		<Layout />
+	</Router>,
+	app
+);

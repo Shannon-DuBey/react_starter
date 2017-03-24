@@ -1,8 +1,7 @@
 import React from 'react';
 
-
 import Header from './Header/Header';
-import Main from './Main/Main';
+import Content from './Content/Content';
 import Footer from './Footer/Footer';
 
 class Layout extends React.Component {
@@ -10,7 +9,7 @@ class Layout extends React.Component {
     return (
       <div id="app-wrapper">
         <Header />
-        <Main />
+        <Content />
         <Footer />
       </div>
     );

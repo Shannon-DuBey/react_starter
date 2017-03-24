@@ -9,7 +9,7 @@ class Button extends React.Component {
 
 	render() {
 		return (
-			<a href='#' className='button' onClick={this.buttonClick}>Click Me</a>
+			<a href='#' className='button' onClick={this.buttonClick}>{this.props.buttonText}</a>
 		);
   	}
 }

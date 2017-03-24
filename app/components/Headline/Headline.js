@@ -4,7 +4,7 @@ import './headline.css';
 class Headline extends React.Component {
   render() {
     return(
-      <h2 className='headline'>This is a Headline</h2>
+      <h2 className='headline'>{this.props.text}</h2>
     );
   }
 }
