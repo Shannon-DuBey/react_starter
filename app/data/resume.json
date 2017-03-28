@@ -1,0 +1,146 @@
+{
+  "skills" : [{
+    "Front End": [
+  		"HTML",
+  		"CSS - including transitions",
+  		"LESS / SASS",
+  		"JavaScript",
+  		"jQuery",
+  		"AngularJS",
+  		"Angular (ng2)",
+  		"React",
+  		"Bootstrap",
+  		"Freemarker (FTL)",
+  		"Php",
+  		"XML / XMLT",
+  		"Responsive Design",
+  		"Mobile Web App Design"
+  	],
+    "Server Side": [
+      "PHP",
+  		"MySQL",
+  		"Ajax",
+  	  "JSON",
+  		"Java *limited real world exposure",
+  		"C++ *coursework only",
+  		"Oracle *coursework only"
+    ],
+    "Other": [
+  	  "Eclipse",
+  	  "Maven",
+  		"SVN",
+  		"GIT",
+  		"SourceTree",
+  		"Bitbucket",
+  		"GitHub",
+  		"Gulp",
+  		"Bower",
+  		"Webpack",
+  		"CMS",
+  		"MS Visual Studio",
+  		"Cross Browser compatibility",
+  		"localization",
+  		"Agile",
+  		"Waterfall"
+  	]
+  }],
+  "Employers" : [
+    {
+      "id":0,
+      "name":"Nexient",
+      "title": "Sr. UI Developer",
+      "start_date":"09/2017",
+      "end_date":null,
+      "description":"build cool stuff for web in modern tech stacks like AngularJs, Ng2, & React"
+    },
+    {
+      "id":1,
+      "name":"IBM",
+      "title": "Sr. UI Developer",
+      "start_date":"07/2012",
+      "end_date":"07/2017",
+      "description":"I am responsible for developing web sites and pages for a high profile client on very tight schedules in a multi-vendor environment. I work closely with vendors and our Java back end team to troubleshoot existing sites and pages to resolve issues in a timely fashion. As well as play a key role in site development for a redesigned fully responsive web application that integrates FTL, HTML, CSS/LESS, AngularJS, JSON/Ajax, Java, and Adobe CQ into one cohesive environment for optimal user experiences."
+    },
+    {
+      "id":2,
+      "name":"1107 Designs",
+      "title": "Freelance Web Developer",
+      "start_date":"01/2000",
+      "end_date":null,
+      "description":"As a freelance Web Designer I was responsible for the planning, design, and   implementation of complete web sites, re-tooling existing layouts for an up to date appearance, and adding additional pages to existing web sites and applications. All work was designed with standards compliant code with emphasis on browser cross-compatibility, accessibility, and search engine optimization."
+    },
+    {
+      "id":3,
+      "name":"BrassCraft Manufacturing",
+      "title": "Altiris/Network Admin & Web Master of Internal Sites",
+      "start_date":"01/2004",
+      "end_date":"01/2012",
+      "description":"I was responsible for the management of all Novell web based management applications and the Apache/Tomcat server(s) as well as the creation of an internal web site for the centralization of web based troubleshooting tools in the Tech Support Department. I was also responsible for the management of Altiris .net web server(s) and software, the Microsoft SQL Server 2000 – 2008 back-end management and the daily maintenance/troubleshooting/repair of all office technology to include desktops, laptops, servers, network equipment, and servers."
+    }
+  ],
+  "Education":[{
+    "formal":[
+      {
+        "id":0,
+        "school":"Baker College Graduate Studies",
+        "completion_year":"2011",
+        "subject":"web development",
+        "degree":"bachelor"
+      },
+      {
+        "id":1,
+        "school":"Baker College",
+        "completion_year":"2014",
+        "subject":"Networking Technology - CISCO",
+        "degree":"associate"
+      },
+      {
+        "id":2,
+        "school":"Baker College",
+        "completion_year":"2011",
+        "subject":"Networking Technology - Novell",
+        "degree":"associate"
+      }
+    ],
+    "other":[
+      {
+        "id":0,
+        "school":"Hack Reactor",
+        "completion_year":null,
+        "subject":"JS Clarity in Under A Day",
+        "degree":null
+      },
+      {
+        "id":1,
+        "school":"CodeSchool",
+        "completion_year":null,
+        "subject":"JS, ES2016 (JS6), AngularJs, Angular, React, GIT, CSS",
+        "degree":null
+      },
+      {
+        "id":2,
+        "school":"Udemy",
+        "completion_year":null,
+        "subject":"JS, Bootstrap, AngularJS, React",
+        "degree":null
+      },
+      {
+        "id":3,
+        "school":"Internal IBM",
+        "completion_year":null,
+        "subject":"JS, HTML5, CSS, AngularJS, Web Content Manager (WCM)",
+        "degree":null
+      },
+      {
+        "id":4,
+        "school":"Egghead IO",
+        "completion_year":null,
+        "subject":"ES2016 (JS6), Agular, React",
+        "degree":null
+      }
+    ]
+  }]
+}
+
+
+		
