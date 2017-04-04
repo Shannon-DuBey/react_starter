@@ -6,11 +6,13 @@
 	box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8), inset 0 -20px 20px -20px rgba(0, 0, 0, 0.8);
 	margin: 0 auto;
 	/* background-image: url('../images/grey_fabric_bg.jpg'); */
-	
+
 	padding:1%;
 	flex: 1 1 0;
 }
 
 #contentArea {
-	
+	max-height: 74vh;
+	overflow-y: auto;
+	padding: 1%;
 }

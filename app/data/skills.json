@@ -1,0 +1,152 @@
+{
+  "skills" : [
+    {
+      "name":"HTML",
+      "category":"front_end"
+    },
+    {
+      "name":"CSS - including transitions",
+      "category":"front_end"
+    },
+    {
+      "name":"LESS / SASS",
+      "category":"front_end"
+    },
+    {
+      "name":"JavaScript",
+      "category":"front_end"
+    },
+    {
+      "name":"jQuery",
+      "category":"front_end"
+    },
+    {
+      "name":"AngularJS",
+      "category":"front_end"
+    },
+    {
+      "name":"Angular (ng2)",
+      "category":"front_end"
+    },
+    {
+      "name":"React",
+      "category":"front_end"
+    },
+    {
+      "name":"Bootstrap",
+      "category":"front_end"
+    },
+    {
+      "name":"Freemarker (FTL)",
+      "category":"front_end"
+    },
+    {
+      "name":"Php",
+      "category":"front_end"
+    },
+    {
+      "name":"XML / XMLT",
+      "category":"front_end"
+    },
+    {
+      "name":"Responsive Design",
+      "category":"front_end"
+    },
+    {
+      "name":"Mobile Web App Design",
+      "category":"front_end"
+    },
+    {
+      "name":"PHP",
+      "category":"server_side"
+    },
+    {
+      "name":"MySQL",
+      "category":"server_side"
+    },
+    {
+      "name":"Ajax",
+      "category":"server_side"
+    },
+    {
+      "name":"JSON",
+      "category":"server_side"
+    },
+    {
+      "name":"Java *limited real world exposure",
+      "category":"server_side"
+    },
+    {
+      "name":"C++ *coursework only",
+      "category":"server_side"
+    },
+    {
+      "name":"Oracle *coursework only",
+      "category":"server_side"
+    },
+    {
+      "name": "Eclipse",
+      "category":"misc"
+    },
+    {
+      "name":"Maven",
+      "category":"misc"
+    },
+    {
+      "name":"SVN",
+      "category":"misc"
+    },
+    {
+      "name":"GIT",
+      "category":"misc"
+    },
+    {
+      "name":"SourceTree",
+      "category":"misc"
+    },
+    {
+      "name":"Bitbucket",
+      "category":"misc"
+    },
+    {
+      "name":"GitHub",
+      "category":"misc"
+    },
+    {
+      "name":"Gulp",
+      "category":"misc"
+    },
+    {
+      "name":"Bower",
+      "category":"misc"
+    },
+    {
+      "name":"Webpack",
+      "category":"misc"
+    },
+    {
+      "name":"CMS",
+      "category":"misc"
+    },
+    {
+      "name":"MS Visual Studio",
+      "category":"misc"
+    },
+    {
+      "name":"Cross Browser compatibility",
+      "category":"misc"
+    },
+    {
+      "name":"localization",
+      "category":"misc"
+    },
+    {
+      "name":"Agile",
+      "category":"misc"
+    },
+    {
+      "name":"Waterfall",
+      "category":"misc"
+    }
+  ]
+}

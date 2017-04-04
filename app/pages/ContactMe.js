@@ -5,7 +5,7 @@ class ContactMe extends React.Component {
   render() {
     return (
       <div id="contactMe">
-        <Headline text="Contact Me Page" />
+        <Headline text="This is the Contact Me Component" />
       </div>
     );
   }

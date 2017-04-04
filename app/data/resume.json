@@ -1,6 +1,6 @@
 {
   "skills" : [{
-    "Front End": [
+    "front_end": [
   		"HTML",
   		"CSS - including transitions",
   		"LESS / SASS",
@@ -16,7 +16,7 @@
   		"Responsive Design",
   		"Mobile Web App Design"
   	],
-    "Server Side": [
+    "server_side": [
       "PHP",
   		"MySQL",
   		"Ajax",
@@ -25,7 +25,7 @@
   		"C++ *coursework only",
   		"Oracle *coursework only"
     ],
-    "Other": [
+    "other": [
   	  "Eclipse",
   	  "Maven",
   		"SVN",
@@ -44,7 +44,7 @@
   		"Waterfall"
   	]
   }],
-  "Employers" : [
+  "employers" : [
     {
       "id":0,
       "name":"Nexient",
@@ -78,7 +78,7 @@
       "description":"I was responsible for the management of all Novell web based management applications and the Apache/Tomcat server(s) as well as the creation of an internal web site for the centralization of web based troubleshooting tools in the Tech Support Department. I was also responsible for the management of Altiris .net web server(s) and software, the Microsoft SQL Server 2000 – 2008 back-end management and the daily maintenance/troubleshooting/repair of all office technology to include desktops, laptops, servers, network equipment, and servers."
     }
   ],
-  "Education":[{
+  "education":[{
     "formal":[
       {
         "id":0,
@@ -102,7 +102,7 @@
         "degree":"associate"
       }
     ],
-    "other":[
+    "misc":[
       {
         "id":0,
         "school":"Hack Reactor",
@@ -141,6 +141,3 @@
     ]
   }]
 }
-
-
-		
