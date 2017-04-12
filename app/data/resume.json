@@ -1,49 +1,154 @@
 {
-  "skills" : [{
-    "front_end": [
-  		"HTML",
-  		"CSS - including transitions",
-  		"LESS / SASS",
-  		"JavaScript",
-  		"jQuery",
-  		"AngularJS",
-  		"Angular (ng2)",
-  		"React",
-  		"Bootstrap",
-  		"Freemarker (FTL)",
-  		"Php",
-  		"XML / XMLT",
-  		"Responsive Design",
-  		"Mobile Web App Design"
-  	],
-    "server_side": [
-      "PHP",
-  		"MySQL",
-  		"Ajax",
-  	  "JSON",
-  		"Java *limited real world exposure",
-  		"C++ *coursework only",
-  		"Oracle *coursework only"
-    ],
-    "other": [
-  	  "Eclipse",
-  	  "Maven",
-  		"SVN",
-  		"GIT",
-  		"SourceTree",
-  		"Bitbucket",
-  		"GitHub",
-  		"Gulp",
-  		"Bower",
-  		"Webpack",
-  		"CMS",
-  		"MS Visual Studio",
-  		"Cross Browser compatibility",
-  		"localization",
-  		"Agile",
-  		"Waterfall"
-  	]
-  }],
+  "skills" : [
+    {
+      "name":"HTML",
+      "category":"front_end"
+    },
+    {
+      "name":"CSS - including transitions",
+      "category":"front_end"
+    },
+    {
+      "name":"LESS / SASS",
+      "category":"front_end"
+    },
+    {
+      "name":"JavaScript",
+      "category":"front_end"
+    },
+    {
+      "name":"jQuery",
+      "category":"front_end"
+    },
+    {
+      "name":"AngularJS",
+      "category":"front_end"
+    },
+    {
+      "name":"Angular (ng2)",
+      "category":"front_end"
+    },
+    {
+      "name":"React",
+      "category":"front_end"
+    },
+    {
+      "name":"Bootstrap",
+      "category":"front_end"
+    },
+    {
+      "name":"Freemarker (FTL)",
+      "category":"front_end"
+    },
+    {
+      "name":"Php",
+      "category":"front_end"
+    },
+    {
+      "name":"XML / XMLT",
+      "category":"front_end"
+    },
+    {
+      "name":"Responsive Design",
+      "category":"front_end"
+    },
+    {
+      "name":"Mobile Web App Design",
+      "category":"front_end"
+    },
+    {
+      "name":"PHP",
+      "category":"server_side"
+    },
+    {
+      "name":"MySQL",
+      "category":"server_side"
+    },
+    {
+      "name":"Ajax",
+      "category":"server_side"
+    },
+    {
+      "name":"JSON",
+      "category":"server_side"
+    },
+    {
+      "name":"Java *limited real world exposure",
+      "category":"server_side"
+    },
+    {
+      "name":"C++ *coursework only",
+      "category":"server_side"
+    },
+    {
+      "name":"Oracle *coursework only",
+      "category":"server_side"
+    },
+    {
+      "name": "Eclipse",
+      "category":"misc"
+    },
+    {
+      "name":"Maven",
+      "category":"misc"
+    },
+    {
+      "name":"SVN",
+      "category":"misc"
+    },
+    {
+      "name":"GIT",
+      "category":"misc"
+    },
+    {
+      "name":"SourceTree",
+      "category":"misc"
+    },
+    {
+      "name":"Bitbucket",
+      "category":"misc"
+    },
+    {
+      "name":"GitHub",
+      "category":"misc"
+    },
+    {
+      "name":"Gulp",
+      "category":"misc"
+    },
+    {
+      "name":"Bower",
+      "category":"misc"
+    },
+    {
+      "name":"Webpack",
+      "category":"misc"
+    },
+    {
+      "name":"CMS",
+      "category":"misc"
+    },
+    {
+      "name":"MS Visual Studio",
+      "category":"misc"
+    },
+    {
+      "name":"Cross Browser compatibility",
+      "category":"misc"
+    },
+    {
+      "name":"localization",
+      "category":"misc"
+    },
+    {
+      "name":"Agile",
+      "category":"misc"
+    },
+    {
+      "name":"Waterfall",
+      "category":"misc"
+    }
+  ],
   "employers" : [
     {
       "id":0,
@@ -78,66 +183,70 @@
       "description":"I was responsible for the management of all Novell web based management applications and the Apache/Tomcat server(s) as well as the creation of an internal web site for the centralization of web based troubleshooting tools in the Tech Support Department. I was also responsible for the management of Altiris .net web server(s) and software, the Microsoft SQL Server 2000 – 2008 back-end management and the daily maintenance/troubleshooting/repair of all office technology to include desktops, laptops, servers, network equipment, and servers."
     }
   ],
-  "education":[{
-    "formal":[
+  "education":[
       {
         "id":0,
         "school":"Baker College Graduate Studies",
         "completion_year":"2011",
         "subject":"web development",
-        "degree":"bachelor"
+        "degree":"bachelor",
+        "category":"formal"
       },
       {
         "id":1,
         "school":"Baker College",
         "completion_year":"2014",
         "subject":"Networking Technology - CISCO",
-        "degree":"associate"
+        "degree":"associate",
+        "category":"formal"
       },
       {
         "id":2,
         "school":"Baker College",
         "completion_year":"2011",
         "subject":"Networking Technology - Novell",
-        "degree":"associate"
-      }
-    ],
-    "misc":[
+        "degree":"associate",
+        "category":"formal"
+      },
       {
         "id":0,
         "school":"Hack Reactor",
         "completion_year":null,
         "subject":"JS Clarity in Under A Day",
-        "degree":null
+        "degree":null,
+        "category":"misc"
       },
       {
         "id":1,
         "school":"CodeSchool",
         "completion_year":null,
         "subject":"JS, ES2016 (JS6), AngularJs, Angular, React, GIT, CSS",
-        "degree":null
+        "degree":null,
+        "category":"misc"
       },
       {
         "id":2,
         "school":"Udemy",
         "completion_year":null,
         "subject":"JS, Bootstrap, AngularJS, React",
-        "degree":null
+        "degree":null,
+        "category":"misc"
       },
       {
         "id":3,
         "school":"Internal IBM",
         "completion_year":null,
         "subject":"JS, HTML5, CSS, AngularJS, Web Content Manager (WCM)",
-        "degree":null
+        "degree":null,
+        "category":"misc"
       },
       {
         "id":4,
         "school":"Egghead IO",
         "completion_year":null,
         "subject":"ES2016 (JS6), Agular, React",
-        "degree":null
+        "degree":null,
+        "category":"misc"
       }
-    ]
-  }]
+  ]
 }

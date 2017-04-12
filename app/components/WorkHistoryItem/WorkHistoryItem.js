@@ -1,7 +1,7 @@
 import React from 'react';
 import Headline from '../Headline/Headline';
 
-class SkillItem extends React.Component {
+class WorkHistoryItem extends React.Component {
   render() {
     //console.log(this);
     let skillList = this.props.skillList;
@@ -20,4 +20,4 @@ class SkillItem extends React.Component {
   }
 }
 
-export default SkillItem;
+export default WorkHistoryItem;
