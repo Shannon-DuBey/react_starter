@@ -1,5 +1,6 @@
 import React from 'react';
 import Headline from '../Headline/Headline';
+import classes from './WorkHistoryList.css';
 
 class WorkHistoryList extends React.Component {
   render() {

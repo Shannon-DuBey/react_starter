@@ -1,0 +1,16 @@
+div.skillList {
+  display:flex;
+  flex-direction:row;
+  width:100%;
+}
+div.skillList > span {
+  flex:1;
+  background-color:#fff;
+  border:1px solid black;
+}
+div.skillList > span ul {
+  margin: 1% auto;
+}
+div.skillList h2.headline {
+  text-align:center;
+}
