@@ -1,23 +1,23 @@
 import React from 'react';
 import Headline from '../Headline/Headline';
-import WorkItem from '../WorkHistoryItem/WorkHistoryItem';
 
 class WorkHistoryList extends React.Component {
   render() {
     //console.log(this);
-    let skillList = this.props.skillList;
+    let jobList = this.props.jobList;
 
     return(
       <div>
-        <Headline text="Front End:" />
-  			<WorkItem category="front_end" skillList={skillList} />
-
-        <Headline text="Back End:" />
-  			<WorkItem category="server_side" skillList={skillList} />
-
-        <Headline text="Misc:" />
-  			<WorkItem category="misc" skillList={skillList} />
-
+        <ul>
+          {jobList.map(job =>
+            <li className="job" key={job.name}>
+              <p>{job.name}</p>
+              <p>{job.title}</p>
+              <p>{job.start_date} - {job.end_date}</p>
+              <p>{job.description}</p>
+            </li>
+          )}
+        </ul>
       </div>
     );
 

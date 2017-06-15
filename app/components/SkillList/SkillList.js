@@ -18,7 +18,7 @@ class SkillList extends React.Component {
   			<SkillItem category="server_side" skillList={skillList} />
 
         <br />
-        
+
         <Headline text="Misc:" />
   			<SkillItem category="misc" skillList={skillList} />
 

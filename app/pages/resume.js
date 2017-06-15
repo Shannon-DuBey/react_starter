@@ -5,6 +5,7 @@ import SkillList from '../components/SkillList/SkillList';
 import EducationList from '../components/EducationList/EducationList';
 import WorkHistoryList from '../components/WorkHistoryList/WorkHistoryList';
 import Headline from '../components/Headline/Headline';
+
 const url = '../app/data/resume.json';
 
 class Resume extends React.Component {
@@ -20,7 +21,7 @@ class Resume extends React.Component {
     fetch(url)
     .then( (response) => { return response.json(); })
     .then( (data) => {
-      console.log(data);
+      //console.log(data);
       this.state.skills = data.skills;
       this.state.education = data.education;
       this.state.work_history = data.employers;
@@ -50,6 +51,7 @@ class Resume extends React.Component {
       <hr />
       <Headline text="Work History" />
       <br />
+      <WorkHistoryList jobList={workHistory} />
 
       <hr />
       <Headline text="Education" />

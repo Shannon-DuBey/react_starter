@@ -4,7 +4,7 @@ import Headline from '../Headline/Headline';
 class EducationItem extends React.Component {
 
   render() {
-    console.log(this);
+    //console.log(this);
     let eduList = this.props.eduList;
     let edu = eduList.filter(edu => edu.category === this.props.category);
 
